@@ -1,4 +1,5 @@
-11  下列关于web页面级优化描述最正确的是____。
+
+11. 下列关于web页面级优化描述最正确的是____。
         A    减少HTTP请求的次数
         B    进行资源合拼和压缩
         C    Inline images
@@ -13,7 +14,8 @@
         Inline images，使用data: URL scheme的方式将图片嵌入到页面或CSS中嵌入页面，因为直接嵌入页面增大了页面的体积，而且无法利用浏览器缓存。所以使用在CSS中的图片则更为理想一些，C正确。
         将外部脚本置于低端，浏览器在加载javascript后立即执行，有可能会阻塞整个页面，造成页面显示缓慢，因此javascript最好放在页面最下面，D正确。
         减少不必要的HTTP跳转，对于以目录形式访问的HTTP链接，很多人都会忽略链接最后是否带’/’，假如你的服务器对此是区别对待的话，那么你也需要注意，这其中很可能隐藏了301跳转，增加了多余请求，E正确。
-12  使用CSS的flexbox布局，不能实现以下哪一个效果：
+
+12. 使用CSS的flexbox布局，不能实现以下哪一个效果：
             A    三列布局，随容器宽度等宽弹性伸缩
             B    多列布局，每列的高度按内容最高的一列等高
             C    三列布局，左列宽度像素数确定，中、右列随容器宽度等宽弹性伸缩
@@ -24,7 +26,8 @@
             Flexbox可以简单快速的创建一个具有弹性功能的布局，当在一个小屏幕上显示的时候，Flexbox可以让元素在容器(伸缩容器)中进行自由扩展和收缩，从而容易调整整个布局。它的目的是使用常见的布局模式，比如说三列布局，可以非常简单的实现。
             一个Flexbox布局是由一个伸缩容器(flex containers)和在这个容器里的伸缩项目(flex items)组成。 伸缩容器(flex  containers)是一个HTML标签元素，并且“display”属性显式的设置了“flex”属性值。在伸缩容器中的所有子元素都会自动变成伸缩项目(flex  items)。
             实现无缝瀑布流布局，要用到js获取当前的高度之类的
-13  把鼠标移到按钮并点击时，会产生一串什么样的事件？
+
+13. 把鼠标移到按钮并点击时，会产生一串什么样的事件？
             A    active hover focus
             B    foucs hover active
             C    hover active foucus
@@ -37,7 +40,8 @@
         :hover 当鼠标悬浮在元素上方时，向元素添加样式。 
         :link 向未被访问的链接添加样式。 
         :visited 向已被访问的链接添加样式。
-14  下列哪一项不是 HTML5 中新增加的标签？（）
+
+14. 下列哪一项不是 HTML5 中新增加的标签？（）
             A    nav
             B    article
             C    caption
@@ -75,7 +79,8 @@
          <source>定义媒体资源 Ogg支持firefox3.5，opera10.5，chrome3.0 Mpeg 4 支持chrome3.0，safsri3.0 Video也支持多个source元素，链接
                到不同的视频文件，浏览器将使用第一个可识别的格式 属性值： autoplay=”autoplay”就绪后马上播放 loop=“loop”播放完再次播放 
          <ruby> 标签定义 ruby 注释（中文注音或字符）在东亚使用
-15  关于嵌套列的用法，正确的是（）
+
+15. 关于嵌套列的用法，正确的是（）
             A    <div class=“row”><br>  <div class=“col-sm-1”>
             B    <div class=“col-sm-1”><br><div class=“row”><br>
             C    <div class=“row”><br>   <div class=“container”><br>    <div class=“col-xs-1”><br>
@@ -93,21 +98,24 @@
                             <div class="col-md- 8 "></div>
                 3 、具体内容应当放置在列容器（ column ）之内，而且只有列（ column ）才可以作为行容器 (.row) 的直接子元素
                 4 、通过设置内距（ padding ）从而创建列与列之间的间距。然后通过为第一列和最后一列设置负值的外距（ margin ）来抵消内距 (padding) 的影响
-16  表单提交时会触发什么Dom方法：
+
+16. 表单提交时会触发什么Dom方法：
             A    submit
             B    onsubmit
             C    onupload
             D    onresize
         答案: A
         解释：onsubmit只是一种绑定事件的方式，如果不用这种事件绑定方式，比如addEventListener，eventType应该是submit而不是onsubmit。
-17  要运用css3动画，你需要运用什么规则？
+
+17. 要运用css3动画，你需要运用什么规则？
             A    animation
             B    keyframes
             C    flash
             D    transition
         答案: B （注意：答案不是A，原因如下）
         解释：要运用css3动画，需要运用@keyframes规则和animation属性
-18  以下代码符合html5规范的是
+
+18. 以下代码符合html5规范的是
             A    <div><span></div>
             B    <input type=”text” disabled>
             C    <label id=”mylabel”></label>
@@ -117,14 +125,16 @@
             label标签只有两个属性
                 for（ 规定 label 绑定到哪个表单元素。 ）
                 form（规定 label 字段所属的一个或多个表单
-19  当margin-top、padding-top的值是百分比时，分别是如何计算的？
+
+19. 当margin-top、padding-top的值是百分比时，分别是如何计算的？
             A    相对父级元素的height，相对自身的height
             B    相对最近父级块级元素的height，相对自身的height
             C    相对父级元素的width，相对自身的width
             D    相对最近父级块级元素的width，相对最近父级块级元素的width
         答案: D
         解释:百分数是相对于父元素的width计算的，所以如果父元素的width以某种方式发生变化，百分数也会变化”
-20  在 HTML5 中，哪个元素用于组合标题元素？（）
+
+20. 在 HTML5 中，哪个元素用于组合标题元素？（）
             A    <group>
             B    <header>
             C    <headings>
@@ -133,3 +143,5 @@
         解释：
             <hgroup>标签用于对网页或区段（section）的标题进行组合
 
+
+.
