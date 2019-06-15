@@ -4,6 +4,7 @@
             B    Disabled为真时，脚本无法修改input的值
             C    Readonly为真时，input的值不会随着表单提交
             D    Disabled为真时，input的值不会随着表单提交
+
         答案: D 
         解释：
           disabled和readonly这两个属性有一些共同之处，比如都设为true，则form属性将不能被编辑，往往在写js代码的时候容易混合使用这两个属性
@@ -16,6 +17,7 @@
             A    HTTP协议是有状态协议。
             B    以下是一个Http链接的response 的响应头： GET /xxx/xxx/js/lib/test.js HTTP/1.1 Host: 127.0.0.1 Connection: keep-alive Pragma: no-cache Cache-Control: no-cache Accept: * /*
             C    RESTful 接口中，利用HTTP协议的method字段来描述要对资源操作的方式，比如GET表示获取资源，POST表示新增一个资源，PUT表示更新资源,DELETE 表示删除资源等等。
+
             D   一个HTTP请求返回的HTTP状态码中，304表示临时重定向。
         答案:C
         原因：A错误，http是无状态的
@@ -29,6 +31,7 @@
             B    <h7></h7>
             C    <em></em>
             D    <h3></h3>
+
         答案: A D
         根本没有h7
         <em> 标签告诉浏览器把其中的文本表示为强调的内容
@@ -39,6 +42,7 @@
             B    导入样式：@import url("css/style.css")
             C    嵌入式：即用<style>.classname {width: 100px;}</style>标签括起来写在页面中的样式
             D    外部引用式：即将样式单独放到一个文件夹中，然后用link标签引入页面的形式，如：<link rel="stylesheet" type="text/css" href="Css.css" />
+
             答案: A B C D     
             知识点： 
             1.   导入样式：在 .css文件中使用@import url("...")来引入另一个css样式表
@@ -52,6 +56,7 @@
             B    col-xs-*
             C    col-md-*
             D    col-lg-*
+
         答案: A B C D 
 
 26. 问一份标准的HTML文档有哪几个必须的HTML标签？
@@ -60,6 +65,7 @@
             B    <head>
             C    <title>
             D    <body>
+
         答案: A B C D 
 
 27. 基于以下 HTML 结构，以下关于 main1.css 和 main2.css 的描述有哪些是正确的？
@@ -68,6 +74,7 @@
        <link herf = 'main1.css' rel = 'stylesheet'>
        <link herf = 'main2.css' rel = 'stylesheet'>
     </head>
+
             A    main1.css和main2.css同时开始加载，先加载完成的优先解析
             B    如果main1.css和main2.css中有相同的选择器规则，那么main2.css中的规则将合并main1.css的规则
             C    main2.css只有在main1.css加载并解析后，才开始加载
@@ -82,6 +89,7 @@
             B    上传图片，避免当前页刷新
             C    左边固定右边自适应的布局
             D    资源加载
+
         答案: A B C D 
         涉及到的知识点：
                 iframe可用在以下几个场景中：
@@ -97,6 +105,7 @@
             B    *.tif
             C    *.bmp
             D    *.jpg
+
         答案: A C D
         网页html文档支持的图片格式有jpg,gif,png和bmp 这四种，
         jpg ， gif   和   png 格式的图片特点是体积很小，因为在网上很常见，然而 bmp就不常见了，因为这种格式虽然很清晰色彩丰富，但是所占内存很大，所以很少见
@@ -107,6 +116,7 @@
             B    optgroup
             C    output
             D    legend
+
         答案: A C
         解释：HTML5的新的表单元素：
             datalist 元素规定输入域的选项列表。 
@@ -119,6 +129,7 @@
             B    <input>
             C    <label>
             D    <img>
+
         答案: C  
         解释：行内块元素有，input textarea object img select，默认属性是inline-block
           1.常见的块级元素(自动换行， 可设置高宽 )有：
