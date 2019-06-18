@@ -1,9 +1,12 @@
-44  浏览器在一次 HTTP 请求中，需要传输一个 4097 字节的文本数据给服务端，可以采用那些方式?
+44. 浏览器在一次 HTTP 请求中，需要传输一个 4097 字节的文本数据给服务端，可以采用那些方式?
+
+
             A    存入 IndexdDB
             B    写入 COOKIE
             C    放在 URL 参数
             D    写入 Session
             E    使用 POST
+
             F    放在 Local Storage
         答案: E  
         解释：
@@ -13,11 +16,14 @@
             Session 是服务器端使用的一种记录客户端状态的机制 。
             post 是向服务器传送数据，数据量较大。
             local Storage 也是 HTML5 的本地存储，将数据保存在客户端中（一般是永久的）。
-45  下列哪个样式定义后,内联(非块状)元素可以定义宽度和高度
+
+45. 下列哪个样式定义后,内联(非块状)元素可以定义宽度和高度
+
                 display:inline
                 display:none
                 display:block
                 display:inherit
+
             答案: C 
             解释： 
                 none	此元素不会被显示。
@@ -39,28 +45,37 @@
                 table-cell	此元素会作为一个表格单元格显示（类似 <td> 和 <th>）
                 table-caption	此元素会作为一个表格标题显示（类似 <caption>）
                 inherit	规定应该从父元素继承 display 属性的值。
-46  在HTML中，（ ）可以在网页上通过链接直接打开邮件客户端发送邮件。  
+
+46. 在HTML中，（ ）可以在网页上通过链接直接打开邮件客户端发送邮件。  
+
                 <a href=”telnet:ming.zhou@nowcoder.com”>发送邮件</a>
                 <a href=”mail:ming.zhou@nowcoder.com”>发送邮件</a>
                 <a href=”mailto:ming.zhou@nowcoder.com”>发送邮件</a>
                 <a href=”ftp:ming.zhou@nowcoder.com”>发送邮件</a>
+
             答案: C
             解释：mailto 后面加发送邮件地址； tel最常用js一键拨号;
-47  在 HTML 文档中包含如下超链接，要实现当鼠标移入该链接时，超链接文本大小变为 30px ，选项中的编码正确的是
+
+47. 在 HTML 文档中包含如下超链接，要实现当鼠标移入该链接时，超链接文本大小变为 30px ，选项中的编码正确的是
+
                 A    <a href=”#” onmouseover=”this.style.fontSize='30px'”>注册</a>
                 B    <a href=”#” onmouseout=”this.style.fontSize=30px”>注册</a>
                 C    <a href=”#” onmouseover=”this.style.font-size=30px”>注册</a>
                 D    <a href=”#” onmouseout=”this.style.font-size=30px”>注册</a>
+
             答案: A 
             解释：
                 鼠标移入onmouseover，移出onmouseout
                 <a href="#" onmouseover="this.style.fontSize='30px'">注册</a>
                 在js里面添加的属性名使用驼峰法，在css里面使用连接线
-48  当表单中包含文件上传控件时，需要将enctype设置为（）
+
+48. 当表单中包含文件上传控件时，需要将enctype设置为（）
+
             A    application/x-www-form-urlencoded
             B    multipart/form-data
             C    text/explain
             D    file-data
+
             答案: B 
             解释：
                 enctype 属性规定在发送到服务器之前应该如何对表单数据进行编码。
@@ -71,11 +86,14 @@
                 不对字符编码。 在使用包含文件上传控件的表单时，必须使用该值。
                 text/plain 
                 空格转换为 "+" 加号，但不对特殊字符编码。
-49  关于 css 布局中的 BFC ，描述错误的是
+
+49. 关于 css 布局中的 BFC ，描述错误的是
+
             A    BFC的区域会与float的元素区域重叠
             B    计算BFC的高度时，浮动子元素也参与计算
             C    BFC就是页面上的一个隔离的独立容器，容器里面的子元素是不会影响到外面的元素
             D    BFC意为”块级格式化上下文”
+
             答案: A 
             解释：
                 BFC就是页面上的一个隔离的独立容器，容器里面的子元素是不会影响到外面的元素。
@@ -89,11 +107,14 @@
                 position: fixed | absolute
                 display: inline-block | table-cell | table-caption | flex | inline-flex
                 overflow: hidden | scroll | auto
-50  下列 media queries 的定义方式中，哪一个是适配 iphone6s 的？（）
+
+50. 下列 media queries 的定义方式中，哪一个是适配 iphone6s 的？（）
+
             A    ．@media(min-device-width:375px) and(max-device-width:667px) and(-webkit-min-device-pixel-ratio:2){}
             B    ．@media(min-device-width:414px) and(max-device-width:736px) and(-webkit-min-device-pixel-ratio:3){}
             C    @media only screen and (min-device-width:320px) and (max-device-width:480px) and (-webkit-device-pixel-ratio:2){}
             D    @media only screen and (min-device-width:320px) and (max-device-width:568px) and (-webkit-min-device-pixel-ratio:2){}
+
             答案: A 
             解释：
                 max-width 指的是显示区域的宽度，比如浏览器的显示区域宽度
@@ -101,22 +122,28 @@
                 max-height 与 max-device-height 也是同理。更进一步说，max-width在窗口大小改变或横竖屏转换时会发生变化
                 max-device-width只与设备相关，横竖屏转换或改变尺寸，缩放都不会发生变化（部分android的宽高会互换而IOS不会）
                 device- width指的是设备本身的宽度，也就是屏幕的分辨率，比如说你手机的分辨率是1440*900，这表示你的屏幕宽是1440px， 所以device-width是1440px。大部分的手机宽度不到480px，（当然今后的趋势是越来越大)。iphone 4的device-width就只有320px，即便对外宣称有640*960.这要归功于iphone的retina显示方式，也就是用两个像素来表示屏幕上一个CSS像素，IPAD3也是这样的。官方说IPAD3跟前几代一样采用的device-width是768px，它的实际分辨率达到了1536*2048，就是这个原因。
-51  根据栅格系统的标准用法，错误的是
+
+51. 根据栅格系统的标准用法，错误的是
+
             A    <div class="container"><br>   <div class="row">
             B    <div class="row"><br>   <div class="col-md-1">
             C    <div class="row"><br>   <div class="container">
             D    <div class="col-md-1"><br><div class= "row">
+
             答案: C
             解释：
                 数据行 (.row) 必须包含在容器（ .container ）中，
                 在行 (.row) 中可以添加列 (.column) ，但列数之和不能超过平分的总列数
                 具体内容应当放置在列容器（ column ）之内，而且只有列（ column ）才可以作为行容器 (.row) 的直接子元素
                 通过设置内距（ padding ）从而创建列与列之间的间距。然后通过为第一列和最后一列设置负值的外距（ margin ）来抵消内距 (padding) 的影响
-52  基于以下 HTML 结构和 CSS 样式，文本 Dijkstra的颜色应该是？
+
+52. 基于以下 HTML 结构和 CSS 样式，文本 Dijkstra的颜色应该是？
+
         ul#related span {
             color: red;
         }
         #favorite .highlight{
+
             color: black;
         }
     <ul class="authors" id="favorite">
@@ -134,11 +161,14 @@
                 #favorite .highlight 的权重为 100+10=110
                 highlight 的权重为 10
                 选最高权重的  C
-53  给定下面的 HTML 代码：
+
+53. 给定下面的 HTML 代码：
+
         <div id=”wrapper”>
         <div class=”wText”>…</div>…<!—more wText items here -->
         <div class=”wImg”>…</div>…<!—more wImg items here -->
         <div class=”wVideo”>…</div>…<!—more wVideo items here -->
+
         </div>
         怎么能够取得 ”wrapper” 中全部项的集合？
             A    $(‘#wrapper’).children();
@@ -155,3 +185,6 @@
                 find() 方法获得当前元素集合中每个元素的后代，通过选择器、jQuery 对象或元素来筛选。 
                 html() 方法返回或设置被选元素的内容 (inner HTML)。 
                 children() 方法返回匹配元素集合中每个元素的子元素，添加可选参数可通过选择器进行过滤。
+
+.
+
