@@ -6,8 +6,8 @@
             C    放在 URL 参数
             D    写入 Session
             E    使用 POST
-
             F    放在 Local Storage
+            
         答案: E  
         解释：
             IndexdDB 是 HTML5 的本地存储，把一些数据存储到浏览器（客户端）中，当与网络断开时，可以从浏览器中读取数据，用来做一些离线应用。
@@ -143,7 +143,6 @@
             color: red;
         }
         #favorite .highlight{
-
             color: black;
         }
     <ul class="authors" id="favorite">
@@ -154,6 +153,7 @@
             B    black
             C    orange
             D    默认颜色
+
             答案: C
             解释：
                 标签的权重是1，类的权重是10 ，id的权重是100
@@ -168,13 +168,13 @@
         <div class=”wText”>…</div>…<!—more wText items here -->
         <div class=”wImg”>…</div>…<!—more wImg items here -->
         <div class=”wVideo”>…</div>…<!—more wVideo items here -->
-
         </div>
         怎么能够取得 ”wrapper” 中全部项的集合？
             A    $(‘#wrapper’).children();
             B    $(‘#wrapper’).html();
             C    $(‘#wrapper’).contents();
             D    $(‘#wrapper’).find(“all”);
+
             答案: C 
             解释：
                 $(‘#wrapper’).children();  //（只沿着 DOM 树向下遍历单一层级）查询直接的子元素。而不管子元素的子元素。
@@ -185,6 +185,3 @@
                 find() 方法获得当前元素集合中每个元素的后代，通过选择器、jQuery 对象或元素来筛选。 
                 html() 方法返回或设置被选元素的内容 (inner HTML)。 
                 children() 方法返回匹配元素集合中每个元素的子元素，添加可选参数可通过选择器进行过滤。
-
-.
-
