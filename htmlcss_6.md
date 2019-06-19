@@ -1,26 +1,35 @@
-54  关于bootstrap3的说法，错误的是
+
+54. 关于bootstrap3的说法，错误的是
+
             A    在windows上支持IE8
             B    在IOS上支持Opera
             C    在MAC OS及Windows上支持firefox
             D    在IOS及android上都支持chrome
+
             答案: B
             解释：IOS和Android上Opera不支持，windows上Safari不支持
-55  下列哪些功能可以通过Cookie来实现？（ ）
+
+55. 下列哪些功能可以通过Cookie来实现？（ ）
+
             A    记录访问者的信息
             B    在页面之间传递信息
             C    自动识别用户
             D    对数据库进行操作
+
             答案: A B C 
             解释：
                 A 项，访问者的信息一般都可以处理成 kv 键值对的形式，故可以保存在 Cookie 中，正确。
                 B 项，通过设置 Cookie 的 path 等属性，可以在特定域名或 URI 下共享 Cookie 信息，正确。
                 C 项，通过在 Cookie 中保存用户uid、服务器会话sid等方法，可以记录用户登录状态，正确。
                 D 项，Cookie 是保存在用户浏览器上的小文本文件，不是数据库，也没有提供操作数据库的 API，故此项错误。
-56  以下结构正确的是
+
+56. 以下结构正确的是
+
             A    <ul><li>牛客网</li></ul>
             B    <ol><li>第一步</li><li>第二步</li></ol>
             C    <ul><p>牛客网真好</p></ul>
             D    <dl><dt>牛客网</dt><dd>网址为www.nowcoder.com</dd><dd>牛客网是一个专注于程序员的学习和成长的专业平台。</dd></dl>
+
             答案: A B D 
             解释： 
                 <ul>里面只能放<li>. 
@@ -28,11 +37,14 @@
                 ul里面放其他标签，不光不符合语义，在IE7- 里面也会有问题： 
                 如果<other>标签前面有<li>标签，浏览器会认为<other>为<li>的子节点
                 <dl>自定义列表 <dt></dt>自定义列表项 <dd></dd>自定义列表项定义 </dl>
-57  以下是行内元素的有（）
+
+57. 以下是行内元素的有（）
+
             A    span
             B    input
             C    ul
             D    p
+
             正确答案: A B
             解释：
                 块级元素与行内元素的区别
@@ -40,11 +52,14 @@
                 行内元素不会独占一行，相邻的行内元素会排列在同一行，直至一行排不下才会换行，其宽度随元素的内容而变化。
                 （2）块级元素可以包含行内元素和块级元素；行内元素不能包含块级元素。
                 （3）行内元素设置width、height、margin-top、margin-bottom、padding-top、padding-bottom无效。
-58  可继承的样式属性包括（）
+
+58. 可继承的样式属性包括（）
+
             A    color
             B    background-color
             C    font-size
             D    border
+
             E    margin
             答案: A C
             解释：
@@ -98,11 +113,14 @@
                 2、除text-indent、text-align之外的文本系列属性
                 五、块级元素可以继承的属性
                 1、text-indent、text-align
-59  请选出所有的置换元素（）
+
+59. 请选出所有的置换元素（）
+
             A    img
             B    input
             C    textarea
             D    select
+
         答案: A B C D
         解释：
             a) 置换元素：浏览器根据元素的标签和属性，来决定元素的具体显示内容。 
@@ -110,20 +128,26 @@
             置换元素在其显示中生成了框，这也就是有的内联元素能够设置宽高的原因。
             b) 不可替换元素：(x)html 的大多数元素是不可替换元素，即其内容直接表现给用户端（如浏览器）。
             例如： <label>label中的内容</label> 标签<label>是一个非置换元素，文字label中的内容”将全被显示。
-60  下面关于IE、FF下面CSS的解释区别描述正确的有？
+
+60. 下面关于IE、FF下面CSS的解释区别描述正确的有？
+
             A    FireFox的div的内嵌div可以把父级的高度撑大，而IE6.0不可以，要自己设置高度。
             B    当设置为三列布局时，FireFox0的float宽度不能达到100％，而IE6.可以。当设置为两列布局时，两种浏览器都可以。
             C    火狐浏览器中，非float的div前面有同一父级的float的div，此div若有背景图，要使用clear：both，才能显示背景图，而IE6.0中不用使用clear：both
             D    在[text-decoration:underline]的属性下，IE6.0显示的下划线会比FireFox低一点。在FireFox中，部分笔画会在下划线的下面1个象素左右。
+
         答案: C D
         解释：
             A:IE6.0的div的内嵌div可以把父级的高度撑大，而FireFox不可以，要自己设置高度。
             B: 当设置为三列布局时，IE6.0的float宽度不能达到100％，而FireFox可以。当设置为两列布局时，两种浏览器都可以
-61  在bootstrap中为了在input两侧添加额外元素，以下说法正确的是
+
+61. 在bootstrap中为了在input两侧添加额外元素，以下说法正确的是
+
             A    使用input-group来封装控件
             B    使用input-group-addon来添加前置元素
             C    使用input-group-tailon来添加后置元素
             D    必须为input添加form-control类
+
         答案: A B D
         解释：
             给input添加form-control类，使得input标签达到标签的100%宽度。
