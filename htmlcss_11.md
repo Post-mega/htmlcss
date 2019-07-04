@@ -1,10 +1,14 @@
-103  display:inline兼容所有的浏览器。请判断这句话的正确与否。
+
+# 103  display:inline兼容所有的浏览器。请判断这句话的正确与否。
+
         答案: false 
         解释：
             w3c中这样说明：
             所有主流浏览器都支持 display 属性。
             这里说所有的浏览器,那我自己开发的浏览器也是浏览器,所以说这个 '所有的浏览器' 太宽泛了
-104  input属于窗体元素,层级显示比flash、其它元素都高。请判断这句话的正确与否。
+
+# 104  input属于窗体元素,层级显示比flash、其它元素都高。请判断这句话的正确与否。
+
         答案: false 
         解释：
             在html中，帧元素（frameset）的优先级最高，表单元素比非表单元素的优先级要高。
@@ -14,7 +18,9 @@
             有窗口元素包括：select元素，object元素，以及frames元素等等。
             无窗口元素：大部分html元素都是无窗口元素。
             层级显示优先级： frameset > 表单元素 > 非表单元素
-105  下列 html 语义化标签中，描述存在错误的是
+
+# 105  下列 html 语义化标签中，描述存在错误的是
+
             A    <em>强调文字，<blockquote>长文本引用
             B    <strong>强调文字，<h1>文章栏目标题
             C    <a>超链接，<p>文章段落
@@ -31,7 +37,9 @@
             <nav> 标签定义导航链接的部分。
             <ul> 标签定义无序列表。 
             <ol> 标签定义有序列表。
-106  在 HTML5 中，哪个方法用于获得用户的当前位置？
+
+# 106  在 HTML5 中，哪个方法用于获得用户的当前位置？
+
             A    getPosition()
             B    getCurrentPosition()
             C    getUserPosition()
@@ -41,7 +49,9 @@
             getCurrentPosition（）获取用户当前位置放入一个值中保存，
             getLocation()地图定位
             选项中其他函数都不存在
-107  假设一个搜索结果展示页面，需要把搜索关键词高亮显示，应该使用以下哪个HTML标签？
+
+# 107  假设一个搜索结果展示页面，需要把搜索关键词高亮显示，应该使用以下哪个HTML标签？
+
             A    <em>
             B    <highlight>
             C    <mark>
@@ -59,7 +69,9 @@
                 CSS字体加粗的方法： font-weight 属性设置文本的粗细。
                 使用 bold 关键字可以将文本设置为粗体 
                 highlight 该属性用来高亮显示指定的代码行。可以通过单个数字来高亮显示单行，或者传入一个类似 [1, 2, 3] 的数组来高亮显示指定的多行。
-108  处理a.html文件时，以下哪行伪代码可能导致内存越界或者抛出异常（）
+
+# 108  处理a.html文件时，以下哪行伪代码可能导致内存越界或者抛出异常（）
+
 
                     int totalBlank = 0;
                     int blankNum = 0;
@@ -93,7 +105,9 @@
         解释：
             答案为B，因为while(page.taglst[i] == "<br>" && i < taglen)这个判断，先执行page.taglst[i] == "<br>"这个判断，如果这个判断返回值为true，再执行i < taglen这个判断。当i=taglen的时候，执行page.taglst[i] == "<br>"这个判断就会越界，所以B处，最先出现越界
             把&&左边和右边位置调换一下就对了
-109  请阅读以下代码：
+
+# 109  请阅读以下代码：
+
         <div style=”width:400px;height:200px;”>
         <span style=”float:left;width:auto;height:100%;”>
                 <i style=”position:absolute;float:left;width:100px;height:50px;”>hello</i>
@@ -112,7 +126,9 @@
             1.span标签是无法设置宽高的；
             2.float会把浮动元素变成块级元素；
             3.绝对定位脱离了文档流
-110  下面代码执行结果正确的是
+
+# 110  下面代码执行结果正确的是
+
         <?php
         $j=5;
         Switch($j){
