@@ -115,7 +115,7 @@
             B    letter-spacing
             C    white-space
             D    word-spacing
-            
+
 >        正确答案: A C
 >        解释：
 >            通过使用 word-break 属性，可以让浏览器实现在任意位置的换行。
@@ -169,4 +169,3 @@
 >        解释：
 >            <img>标签没有闭合，应该是<img src="" />
 >            <pre> 元素表示预定义格式文本
->            HTML5中已不再支持<center></center>标签了。
