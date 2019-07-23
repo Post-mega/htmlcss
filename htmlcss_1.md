@@ -15,8 +15,8 @@
     B    border
     C    background
     D    display
-    答案：A
 
+>    答案：A
 >    解释：涉及到的有：
 >
 >       css3新增的属性：
@@ -24,11 +24,13 @@
 >        一. box-shadow(阴影效果) 
 >        使用: 
 >        box-shadow: 20px 10px 0 #000; 
+>
 >        二. border-colors(为边框设置多种颜色) 
 >        使用: 
 >        border: 10px solid #000; 
 >        说明:  
 >        颜色值数量不固定, 且FF的私有写法不支持缩写: -moz-border-colors: #333 #444 #555; 
+>
 >        三. boder-image(图片边框) 
 >        使用: 
 >            border-image: url(exam.png) 20 20 20 20 repeat;
@@ -38,6 +40,7 @@
 >        repeat --- 边框图片会平铺, 类似于背景重复; 
 >        stretch --- 边框图片会以拉伸的方式来铺满整个边框; 
 >        (3). 必须将元素的边框厚度设置为非0非auto值. 
+>
 >        四. text-shadow(文本阴影) 
 >        使用:  
 >            text-shadow: [<颜色><水平偏移><纵向偏移><模糊半径>] || [<水平偏移><纵向偏移><模糊半径><颜色>]; 
@@ -48,24 +51,29 @@
 >        (3) 阴影效果会按照shadow list中指定的顺序应用到元素上; 
 >        (4) 这些阴影效果有可能相互重叠, 但不会叠加文本本身; 
 >        (5) 阴影可能会跑到容器的边界之外, 但不会影响容器的大小.
+>
 >        五. text-overflow(文本截断) 
 >        使用: 
 >            text-overflow: inherit | ellipsis | clip ; 
 >        -o-text-overflow: inherit | ellipsis | clip; 
 >        说明:  
 >        (1) 还有一个属性ellipsis-word, 但各浏览器均不支持. 
+>
 >        六. word-wrap(自动换行) 
 >        使用: 
 >            word-wrap: normal | break-word; 
+>
 >        七. border-radius(圆角边框) 
 >        使用: 
 >            -moz-border-radius: 5px; 
 >        -webkit-border-radius: 5px; 
+>
 >        八.  opacity(不透明度)    
 >        使用: 
 >        opacity: 0.5; 
 >        filter: alpha(opacity=50); 
 >        -ms-filter(opacity=50);  
+>
 >        九. box-sizing(控制盒模型的组成模式) 
 >
 >        使用: 
