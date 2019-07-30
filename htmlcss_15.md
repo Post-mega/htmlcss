@@ -142,9 +142,7 @@
             A    canvas是HTML5的一部分，允许脚本动态渲染位图像
             B    canvas是作为Flash的替代技术出现
             C    canvas拥有多种绘制路径、矩形、圆形、字符及添加图像的方法
-            D    Internet Explorer自Internet Explorer9起已经可以支持canvas、
-
-            
+            D    Internet Explorer自Internet Explorer9起已经可以支持canvas
 
 >        正确答案: A B
 >        解释：
